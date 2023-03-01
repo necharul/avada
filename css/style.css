@@ -1,0 +1,763 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+
+::-moz-selection {
+    background-color: #000;
+    color: #fff;
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+/* ====================================
+    1. navbar start
+======================================= */
+
+nav {}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav .navbar-nav {
+    column-gap: 50px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: .4s;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: #FF9600;
+}
+
+nav .get-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 50px;
+    background: #FF9600;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+nav .get-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* ====================================
+    1. navbar end
+======================================= */
+
+
+
+
+/* ====================================
+    2. banner start
+======================================= */
+
+.banner {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 291px;
+    padding-bottom: 156px;
+    position: relative;
+
+}
+
+.banner h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    width: 819px;
+    margin: 0 auto;
+}
+
+.banner .banner-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 50px;
+    background: #FF9600;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 55px;
+    transition: .4s;
+}
+
+.banner .banner-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+.banner img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* ====================================
+    2. banner end
+======================================= */
+
+
+
+
+
+/* ====================================
+    3. adventures start
+======================================= */
+
+.adventures {
+    padding: 72px 0;
+}
+
+.adventures .title h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #14B9F1;
+}
+
+.adventures .title h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #222;
+    position: relative;
+    margin-bottom: 62px;
+}
+
+.adventures .title h2:after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #A0A0A0;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+}
+
+.adventures .title p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    color: #222;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.adventures .title ul {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #222;
+}
+
+.adventures .title ul li {
+    margin-bottom: 30px;
+}
+
+.adventures .title ul li i {
+    margin-right: 23px;
+}
+
+.adventures .title .adventure-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 50px;
+    background: #FF9600;
+    border-radius: 4px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.adventures .title .adventure-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* ====================================
+    3. adventures end
+======================================= */
+
+
+
+
+
+/* ====================================
+    4. counter start
+======================================= */
+
+.counter {
+    padding-bottom: 198px;
+}
+
+.counter .item {
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+
+.counter .item1 {
+    background: #FFF4E5 url(../images/counter-bg.png);
+}
+
+.counter .item2 {
+    background: #E7FDE9 url(../images/counter-bg.png);
+}
+
+.counter .item3 {
+    background: #F2F2FD url(../images/counter-bg.png);
+}
+
+.counter .item4 {
+    background: #FDF1F5 url(../images/counter-bg.png);
+}
+
+.counter .item h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.counter .item p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ====================================
+    4. counter end
+======================================= */
+
+
+
+
+
+/* ====================================
+    s. ativities start
+======================================= */
+
+.activites {
+    background: #0C3543;
+    padding-top: 102px;
+    padding-bottom: 98px;
+    position: relative;
+}
+
+.activites .title h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #FF9600;
+}
+
+.activites .title h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    margin-bottom: 62px;
+}
+
+.activites .title h2:after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+}
+
+.activites .box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.activites p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 auto;
+    width: 638px;
+}
+
+.activites .card {
+    border: 0;
+    border-radius: 10px;
+    background: none;
+}
+
+.activites .card .card-body {
+    background: #0F4152;
+    text-align: center;
+    padding: 27px 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.activites .card .card-body h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.activites .card .card-body p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    width: auto;
+}
+
+.activites>h2 {
+    font-family: 'Arizonia', cursive;
+    font-size: 160px;
+    color: #fff;
+    text-align: center;
+    margin-top: 83px;
+}
+
+.activites>img {
+    position: absolute;
+    width: 100%;
+}
+
+.activites>img.activities-bg {
+    bottom: 62px;
+    left: 0;
+}
+
+.activites>img.activities-shape {
+    bottom: 0;
+    left: 0;
+}
+
+/* ====================================
+    s. ativities end
+======================================= */
+
+
+
+
+
+/* ====================================
+    6. boundaries start
+======================================= */
+
+.boundaries {
+    background: #FF9600;
+    padding-top: 106px;
+    overflow: hidden;
+}
+
+.boundaries .boundaries-logo {
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.boundaries h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.boundaries>p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.boundaries .btn-wrap {
+    text-align: center;
+}
+
+.boundaries .btn-wrap .boundaries-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 50px;
+    background: #0C3543;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.boundaries .btn-wrap .boundaries-btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.boundaries .item {
+    position: relative;
+    transform: translateY(70px);
+}
+
+.boundaries .item img {
+    width: 100%;
+}
+
+.boundaries .item .item-details {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(7, 7, 46, 0.5859593837535014) 45%, rgba(0, 0, 0, 0.18539915966386555) 100%);
+    ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    padding-left: 65px;
+}
+
+.boundaries .item .item-details h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 234px;
+}
+
+.boundaries .item .item-details p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+
+.boundaries .item .item-details p:after {
+    content: "";
+    width: 285px;
+    height: 1px;
+    background: #717171;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+}
+
+/* ====================================
+    6. boundaries end
+======================================= */
+
+
+
+
+
+
+/* ====================================
+    7. choose start
+======================================= */
+
+.choose {
+    margin-top: 192px;
+    margin-bottom: 99px;
+}
+
+.choose .title {
+    text-align: center;
+
+}
+
+.choose .title h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #14B9F1;
+}
+
+.choose .title h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    margin-bottom: 62px;
+    position: relative;
+}
+
+.choose .title h2:after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #A0A0A0;
+    position: absolute;
+    bottom: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.choose .item {
+    text-align: center;
+}
+
+.choose .item img {
+    margin-bottom: 56px;
+}
+
+.choose .item .item-details h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.choose .item .item-details p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #222;
+    width: 275px;
+}
+
+/* ====================================
+    7. choose end
+======================================= */
+
+
+
+
+
+/* ====================================
+    8. blog start
+======================================= */
+
+.blog {
+    background: #F7F7F7;
+    padding-top: 101px;
+    padding-bottom: 128px;
+}
+
+.blog .title h3 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    color: #FF9600;
+}
+
+.blog .title h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    margin-bottom: 62px;
+}
+
+.blog .title h2:after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+}
+
+.blog .box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.blog .box p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 auto;
+    width: 638px;
+}
+
+.blog .card .card-body h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.blog .card .card-body p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 45px;
+}
+
+.blog .card .card-footer {
+    background: #fff;
+}
+
+.blog .card .card-footer .blog-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF9600;
+    margin: 30px 0;
+    display: inline-block;
+}
+
+/* ====================================
+    8. blog end
+======================================= */
+
+
+
+
+
+
+/* ====================================
+    9. partner start
+======================================= */
+
+.partner {
+    margin: 104px 0;
+}
+
+.partner img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* ====================================
+    9. partner end
+======================================= */
+
+
+
+
+
+
+/* ====================================
+    10. footer start
+======================================= */
+
+footer {
+    background: #0C3543;
+}
+
+footer img.footer-left-img {
+    width: 100%;
+    height: 100%;
+}
+
+footer .footer-details {
+    padding-left: 137px;
+    padding-top: 80px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+}
+
+footer .footer-details a.footer-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: #FF9600;
+    padding: 18px 42px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+footer .footer-details a.footer-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+footer .footer-details p.footer-info {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 39px;
+    width: 559px;
+}
+
+footer .footer-details .footer-line {
+    width: 821px;
+    height: 1px;
+    background: #c4c4c480;
+    margin-top: 81px;
+    margin-bottom: 67px;
+}
+
+footer .footer-details .footer-contact {
+    margin-bottom: 72px;
+}
+
+footer .footer-details .footer-contact h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+
+footer .footer-details .footer-contact h6:after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+footer .footer-details .footer-contact p,
+footer .footer-details .copyright {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/* ====================================
+    10. footer end
+======================================= */
