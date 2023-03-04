@@ -1,0 +1,1038 @@
+@media (min-width:320px) and (max-width:575.99px) {
+    nav .navbar-brand img {
+        width: 50%;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+    }
+
+    nav .navbar-toggler i {
+        color: #fff;
+    }
+
+    .navbar-collapse {
+        background: #0C3543;
+        padding: 20px;
+    }
+
+    nav .get-btn {
+        padding: 10px 20px;
+        display: inline-block;
+    }
+
+    .banner {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+        width: auto;
+    }
+
+    .banner .banner-btn {
+        font-size: 18px;
+        padding: 8px 10px;
+        margin: 0 4px;
+        margin-top: 18px;
+    }
+
+    .adventures {
+        padding: 30px 0;
+    }
+
+    .adventures .title h3 {
+        font-size: 20px;
+    }
+
+    .adventures .title h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .adventures .title h2:after {
+        bottom: -20px;
+    }
+
+    .adventures .title p {
+        margin-bottom: 15px;
+    }
+
+    .adventures .title ul li {
+        margin-bottom: 15px;
+    }
+
+    .adventures .title .adventure-btn {
+        padding: 10px 25px;
+    }
+
+    .adventures img {
+        display: none;
+    }
+
+    .counter {
+        padding-bottom: 30px;
+    }
+
+    .counter .item h3 {
+        font-size: 40px;
+    }
+
+    .counter .item p {
+        font-size: 14px;
+    }
+
+    .counter .item {
+        margin-bottom: 15px;
+    }
+
+    .activites {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .activites .title h3 {
+        font-size: 20px;
+    }
+
+    .activites .title h2 {
+        margin-bottom: 35px;
+        font-size: 25px;
+    }
+
+    .activites .title h2::after {
+        bottom: -20px;
+    }
+
+    .activites p {
+        margin-bottom: 15px;
+    }
+
+    .activites .card .card-body h5 {
+        font-size: 25px;
+    }
+
+    .activites .card .card-body p {
+        font-size: 16px;
+    }
+
+    .activites > h2 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .boundaries {
+        background: #FF9600;
+        padding-top: 30px;
+        overflow: hidden;
+    }
+
+    .boundaries .boundaries-logo img {
+        width: 20%;
+    }
+
+    .boundaries h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .boundaries .container > p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .boundaries .btn-wrap .boundaries-btn {
+        padding: 10px 25px;
+        margin-bottom: 10px;
+    }
+
+    .boundaries .item .item-details {
+        padding-left: 25px;
+    }
+    .boundaries .item .item-details h4 {
+        font-size: 25px;
+        margin-top: 175px;
+    }
+
+    .boundaries .item .item-details h5 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .boundaries .item .item-details .boundaries-item-hr {
+        width: 216px;
+        margin-bottom: 15px;
+    }
+
+    .boundaries .item .item-details h6 {
+        font-size: 16px;
+    }
+
+    .boundaries .item {
+        transform: translateY(20px);
+        margin-bottom: 20px;
+    }
+
+    .boundaries .item:hover {
+        transform: translateY(20px);
+    }
+
+    .choose {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .choose .title h3 {
+        font-size: 20px;
+    }
+
+    .choose .title h2 {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .blog {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .blog .title h3 {
+        font-size: 20px;
+    }
+
+    .blog .title h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .blog .title h2::after {
+        bottom: -20px;
+    }
+
+    .choose .title h2::after {
+        width: 60px;
+        bottom: -15px;
+    }
+
+    .choose .item .item-details h6 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .choose .item .item-details p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .choose .item img {
+        margin-bottom: 20px;
+    }
+
+    .blog .box p {
+        margin-bottom: 20px;
+    }
+
+    .blog .card {
+        margin-bottom: 20px;
+    }
+
+    .blog .card .card-body h5 {
+        font-size: 20px;
+    }
+
+    .blog .card .card-body p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .blog .card .card-footer .blog-btn {
+        margin: 12px 0;
+        font-size: 16px;
+    }
+
+    .partner {
+        margin: 30px 0;
+    }
+
+}
+
+
+
+@media (min-width:576px) and (max-width:767.99px) {
+
+    nav .navbar-brand img {
+        width: 60%;
+    }
+    .navbar-collapse {
+        background: #0C3543;
+        padding: 20px;
+    }
+
+    nav .get-btn {
+        display: inline-block;
+    }
+
+    .banner {
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        width: auto;
+    }
+
+    .banner .banner-btn {
+        padding: 15px 25px;
+        margin-top: 30px;
+    }
+
+    .adventures {
+        padding: 70px 0;
+        padding-bottom: 60px;
+    }
+
+    .adventures .title h3 {
+        font-size: 25px;
+    }
+
+    .adventures .title h2 {
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+
+    .adventures .title h2::after {
+        bottom: -25px;
+    }
+
+    .adventures .title p {
+        margin-bottom: 30px;
+    }
+
+    .adventures .title ul li {
+        margin-bottom: 20px;
+    }
+
+    .adventures .title .adventure-btn {
+        padding: 15px 25px;
+        margin-bottom: 20px;
+    }
+
+    .adventures img {
+        display: none;
+    }
+    
+    .counter .item h3 {
+        font-size: 60px;
+    }
+
+    .counter .item {
+        margin-bottom: 25px;
+    }
+
+    .counter {
+        padding-bottom: 50px;
+    }
+
+    .activites {
+        background: #0C3543;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        position: relative;
+    }
+
+    .activites .title h3 {
+        font-family: 'Yellowtail', cursive;
+        font-size: 25px;
+        color: #FF9600;
+    }
+
+    .activites .title h2 {
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+
+    .activites p {
+        margin-bottom: 20px;
+    }
+
+    .activites .card .card-body h5 {
+        font-size: 25px;
+    }
+
+    .activites .card .card-body p {
+        font-size: 17px;
+    }
+
+    .activites > h2 {
+        font-size: 80px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .boundaries {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .boundaries h2 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    .boundaries .container > p {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+
+    .boundaries .btn-wrap .boundaries-btn {
+        padding: 15px 25px;
+    }
+
+    .boundaries .item {
+        transform: translateY(30px);
+        margin-bottom: 20px;
+    }
+
+    .boundaries .item .item-details h4 {
+        font-size: 35px;
+        margin-top: 335px;
+    }
+
+    .boundaries .item .item-details h5 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .choose {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .choose .title h3 {
+        font-size: 25px;
+    }
+
+    .choose .title h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .choose .title h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .choose .title h2::after {
+        width: 65px;
+        bottom: -18px;
+    }
+
+    .choose .item img {
+        margin-bottom: 20px;
+    }
+
+    .blog {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .blog .title h3 {
+        font-size: 25px;
+    }
+
+    .blog .title h2 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .blog .title h2::after {
+        bottom: -20px;
+    }
+
+    .blog .box p {
+        margin-bottom: 20px;
+    }
+
+    .blog .card {
+        margin-bottom: 20px;
+    }
+
+    .blog .card .card-body h5 {
+        font-size: 25px;
+    }
+
+    .blog .card .card-body p {
+        margin-bottom: 15px;
+    }
+
+    .blog .card .card-footer .blog-btn {
+        margin: 15px 0;
+    }
+
+    .partner {
+        margin: 70px 0;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991.99px) {
+
+    .navbar-collapse {
+        background: #0C3543;
+        padding: 20px;
+    }
+
+    nav .get-btn {
+        padding: 15px 28px;
+        display: inline-block;
+    }
+
+    .banner h1 {
+        font-size: 55px;
+        width: auto;
+    }
+
+    .banner .banner-btn {
+        padding: 15px 28px;
+        margin-top: 20px;
+    }
+
+    .banner {
+        padding-top: 155px;
+        padding-bottom: 90px;
+    }
+
+    .adventures {
+        padding: 60px 0;
+    }
+
+    .adventures .title h3 {
+        font-size: 25px;
+    }
+
+    .adventures .title h2 {
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+
+    .adventures .title h2::after {
+        bottom: -25px;
+    }
+
+    .adventures .title p {
+        margin-bottom: 30px;
+    }
+
+    .adventures .title ul li {
+        margin-bottom: 25px;
+    }
+
+    .adventures .title .adventure-btn {
+        padding: 15px 28px;
+        margin-bottom: 30px;
+    }
+
+    .adventures img {
+        display: none;
+    }
+
+    .counter {
+        padding-bottom: 65px;
+    }
+
+    .counter .item {
+        margin-bottom: 25px;
+    }
+
+    .counter .item h3 {
+        font-size: 65px;
+    }
+
+    .activites {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .activites .title h3 {
+        font-size: 25px;
+    }
+
+    .activites .title h2 {
+        font-size: 40px;
+        margin-bottom: 48px;
+    }
+
+    .activites .title h2::after {
+        bottom: -25px;
+    }
+
+    .activites p {
+        margin: 0;
+    }
+
+    .activites .box {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .activites .card .card-body h5 {
+        font-size: 28px;
+    }
+
+    .activites > h2 {
+        font-size: 100px;
+        margin-bottom: 0;
+    }
+
+    .boundaries {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .boundaries h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .boundaries .container > p {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .boundaries .btn-wrap .boundaries-btn {
+        padding: 15px 28px;
+    }
+
+    .boundaries .item {
+        position: relative;
+        transform: translateY(30px);
+        transition: .4s;
+        margin-bottom: 25px;
+    }
+
+    .boundaries .item .item-details {
+        padding-left: 35px;
+    }
+
+    .boundaries .item .item-details h4 {
+        margin-top: 160px;
+        font-size: 36px;
+    }
+
+    .boundaries .item .item-details h5 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .choose {
+        margin-top: 90px;
+        margin-bottom: 65px;
+    }
+
+    .choose .title h3 {
+        font-size: 25px;
+    }
+
+    .choose .title h2 {
+        font-size: 40px;
+    }
+
+    .choose .title h2::after {
+        bottom: -20px;
+    }
+
+    .choose .item img {
+        margin-bottom: 25px;
+    }
+
+    .choose .item {
+        margin-bottom: 25px;
+    }
+    
+    .blog {
+        padding-top: 90px;
+        padding-bottom: 65px;
+    }
+
+    .blog .title h3 {
+        font-size: 25px;
+    }
+
+    .blog .title h2 {
+        font-size: 40px;
+        margin-bottom: 52px;
+    }
+
+    .blog .title h2::after {
+        bottom: -25px;
+    }
+
+    .blog .box p {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    .blog .card {
+        margin-bottom: 25px;
+    }
+
+    .blog .card .card-body h5 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .blog .card .card-body p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .blog .card .card-footer .blog-btn {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199.99px) {
+    nav .navbar-brand img {
+        width: 80%;
+    }
+    .navbar-collapse {
+    }
+
+    nav .get-btn {
+        font-size: 16px;
+        padding: 15px 28px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    nav .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+    nav .navbar-nav {
+        column-gap: 25px;
+    }
+
+    .banner h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+        color: #fff;
+        width: 819px;
+        margin: 0 auto;
+    }
+
+    .banner {
+        padding-top: 185px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner-btn {
+        font-size: 16px;
+        padding: 15px 28px;
+        margin-top: 30px;
+    }
+
+    .adventures .title h3 {
+        font-size: 28px;
+    }
+
+    .adventures .title h2 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .adventures .title h2::after {
+        bottom: -25px;
+    }
+
+    .adventures .title p {
+        margin-bottom: 30px;
+    }
+
+    .adventures .title ul li {
+        margin-bottom: 20px;
+    }
+
+    .adventures .title .adventure-btn {
+        font-size: 16px;
+        padding: 15px 28px;
+    }
+
+    .adventures img {
+        width: 100%;
+    }
+
+    .counter .item h3 {
+        font-size: 56px;
+    }
+
+    .counter .item1, .counter .item2, .counter .item3, .counter .item4 {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .counter .item {
+        padding: 21px 0;
+    }
+
+    .counter {
+        padding-bottom: 100px;
+    }
+
+    .activites .title h3 {
+        font-size: 28px;
+    }
+
+    .activites {
+        padding-top: 100px;
+    }
+
+    .activites .title h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 45px;
+        font-weight: 700;
+        color: #fff;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .activites .title h2::after {
+        bottom: -21px;
+    }
+
+    .activites .card .card-body h5 {
+        font-size: 28px;
+    }
+
+    .activites > h2 {
+        font-size: 130px;
+        margin-top: 65px;
+    }
+
+    .boundaries {
+        padding-top: 100px;
+    }
+
+    .boundaries h2 {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+
+    .boundaries .container > p {
+        font-size: 28px;
+        margin-bottom: 38px;
+    }
+
+    .boundaries .btn-wrap .boundaries-btn {
+        font-size: 16px;
+        padding: 16px 28px;
+    }
+
+    .boundaries .item .item-details h4 {
+        font-size: 32px;
+        margin-top: 141px;
+    }
+
+    .boundaries .item .item-details h5 {
+        font-size: 25px;
+        margin-bottom: 24px;
+    }
+
+    .boundaries .item .item-details {
+        padding-left: 29px;
+    }
+
+    .boundaries .item .item-details .boundaries-item-hr {
+        width: 222px;
+    }
+
+    .choose {
+        margin-top: 100px;
+    }
+
+    .choose .title h3 {
+        font-size: 28px;
+    }
+
+    .choose .title h2 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .choose .title h2::after {
+        bottom: -17px;
+    }
+    
+    .choose .item img {
+        margin-bottom: 28px;
+    }
+
+    .choose .item .item-details h6 {
+        font-size: 25px;
+    }
+
+    .choose .item .item-details p {
+        font-size: 17px;
+        width: auto;
+    }
+
+    .blog {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .blog .title h3 {
+        font-size: 28px;
+    }
+    
+    .blog .title h2 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .blog .title h2::after {
+        bottom: -20px;
+    }
+
+    .blog .card .card-body h5 {
+        font-size: 28px;
+        height: 95px;
+    }
+
+    .blog .card .card-body p {
+        margin-bottom: 17px;
+    }
+
+    .blog .card .card-footer .blog-btn {
+        margin: 24px 0;
+    }
+
+    .partner {
+        margin: 100px 0;
+    }
+
+
+
+
+
+}
+
+
+
+@media (min-width:1200px) and (max-width:1399.99px) {
+
+    nav .get-btn {
+        padding: 18px 38px;
+    }
+
+    nav .navbar-nav {
+        column-gap: 43px;
+    }
+
+    .banner {
+        padding-top: 227px;
+        padding-bottom: 156px;
+    }
+
+    .banner .banner-btn {
+        padding: 18px 38px;
+    }
+
+    .adventures img {
+        width: 100%;
+    }
+
+    .adventures .title .adventure-btn {
+        padding: 18px 38px;
+    }
+
+    .counter .item h3 {
+        font-size: 74px;
+    }
+
+    .counter .item1, .counter .item2, .counter .item3, .counter .item4 {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .counter {
+        padding-bottom: 125px;
+    }
+
+    .activites > h2 {
+        font-size: 150px;
+        margin-top: 74px;
+    }
+
+    .boundaries h2 {
+        margin-bottom: 28px;
+    }
+
+    .boundaries .btn-wrap .boundaries-btn {
+        padding: 18px 38px;
+    }
+
+    .boundaries .item .item-details h4 {
+        font-size: 38px;
+        margin-top: 200px;
+    }
+
+    .boundaries .item .item-details .boundaries-item-hr {
+        width: 255px;
+    }
+
+    .boundaries .item .item-details {
+        padding-left: 43px;
+    }
+
+    .boundaries .item .item-details h5 {
+        font-size: 28px;
+        margin-bottom: 26px;
+    }
+
+    .choose {
+        margin-top: 134px;
+        margin-bottom: 99px;
+    }
+
+    .choose .item .item-details h6 {
+        height: 79px;
+    }
+
+    .choose .item img {
+        margin-bottom: 44px;
+    }
+
+    .blog .card .card-body h5 {
+        height: 114px;
+    }
+
+    .blog .card .card-body p {
+        margin-bottom: 28px;
+    }
+
+    .blog .card .card-footer .blog-btn {
+        margin: 25px 0;
+    }
+
+    .choose .item .item-details h6 {
+        height: 79px;
+    }
+
+
+
+}
+
+
+@media (min-width:1400px) {
+
+}

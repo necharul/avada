@@ -23,6 +23,10 @@ ol {
     color: #fff;
 }
 
+nav .navbar-toggler i {
+    color: #fff;
+}
+
 
 
 
@@ -401,7 +405,7 @@ nav .get-btn:hover {
     margin-bottom: 46px;
 }
 
-.boundaries>p {
+.boundaries .container > p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -436,6 +440,11 @@ nav .get-btn:hover {
 .boundaries .item {
     position: relative;
     transform: translateY(70px);
+    transition: .4s;
+}
+
+.boundaries .item:hover {
+    transform: translateY(20px);
 }
 
 .boundaries .item img {
@@ -454,7 +463,7 @@ nav .get-btn:hover {
     padding-left: 65px;
 }
 
-.boundaries .item .item-details h5 {
+.boundaries .item .item-details h4 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -462,22 +471,39 @@ nav .get-btn:hover {
     margin-top: 234px;
 }
 
-.boundaries .item .item-details p {
+.boundaries .item .item-details h5 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
     font-weight: 400;
     color: #fff;
     position: relative;
+    margin-bottom: 45px;
 }
 
-.boundaries .item .item-details p:after {
-    content: "";
+.boundaries .item .item-details .boundaries-item-hr {
     width: 285px;
     height: 1px;
     background: #717171;
-    position: absolute;
-    bottom: -45px;
-    left: 0;
+    margin-bottom: 24px;
+}
+
+.boundaries .item .item-details h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #a0a0a0;
+}
+
+.boundaries .item .item-details h6 i {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
 }
 
 /* ====================================
@@ -552,6 +578,7 @@ nav .get-btn:hover {
     font-weight: 400;
     color: #222;
     width: 275px;
+    margin: 0 auto;
 }
 
 /* ====================================
@@ -676,7 +703,7 @@ nav .get-btn:hover {
     10. footer start
 ======================================= */
 
-footer {
+/* footer {
     background: #0C3543;
 }
 
@@ -755,8 +782,88 @@ footer .footer-details .copyright {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
+} */
+
+footer {
+    background: #0C3543;
 }
 
+footer .footer-right-img img {
+    width: 100%;
+}
+
+footer .footer-details {
+    padding-left: 137px;
+    padding-top: 80px;
+    padding-bottom: 73px;
+    box-sizing: border-box;
+    
+}
+
+footer .footer-details a.footer-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: #FF9600;
+    padding: 18px 42px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+footer .footer-details a.footer-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+footer .footer-details p.footer-info {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 39px;
+    width: 559px;
+}
+
+footer .footer-details .footer-line {
+    width: 821px;
+    height: 1px;
+    background: #c4c4c480;
+    margin-top: 81px;
+    margin-bottom: 67px;
+}
+
+footer .footer-details .footer-contact {
+    margin-bottom: 72px;
+}
+
+footer .footer-details .footer-contact h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+
+footer .footer-details .footer-contact h6:after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+footer .footer-details .footer-contact p,
+footer .footer-details .copyright {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
 
 /* ====================================
     10. footer end
